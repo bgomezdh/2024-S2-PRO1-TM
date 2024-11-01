@@ -1,0 +1,105 @@
+* { 
+    box-sizing: border-box; 
+ }
+     body {
+     margin: 0;
+  }	
+ ul, ol {
+    padding: 0;
+  }
+ li {
+    list-style-type: none; 
+ }
+ 
+ a { 
+   text-decoration: none; color: #000; 
+ }
+ 
+ .header{
+    background-color: blue;
+    border: 3px solid black;
+    height: 150px;
+ }
+
+ main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+ }
+
+ .container{
+    width: 1220px;
+    max-width: 1220px;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+ }
+
+ .article{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+ }
+
+ .cajaA{
+    width: 20%;
+    background-color: red;
+    border: 2px solid black;
+ }
+
+ .cajaB{
+    width: 69%;
+    background-color: rgb(0, 255, 136);
+    border: 2px solid black;
+ }
+
+ .cajaC{
+    width: 8%;
+    background-color: rgb(255, 242, 0);
+    border: 2px solid black;
+    
+ }
+
+
+ @media (max-width:  900px) {
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .article{
+        height: 100px;
+    }
+
+    .cajaA{
+        width: 40%;
+    }
+
+    .cajaB{
+        width: 55%;
+    }
+
+    .cajaC{
+        width: 100%;
+    }
+ }
+
+
+ 
+ @media (max-width:  420px) {
+    .container {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .article{
+        height: 20vh;
+        width: 100%;
+    }
+
+ }

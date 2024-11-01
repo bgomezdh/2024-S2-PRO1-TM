@@ -1,0 +1,175 @@
+* {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4{
+    margin: 0px;
+}
+
+img {
+  filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* css de home */
+
+header{
+    background-color: white;
+}
+
+.navbar{
+    padding: 0px 40px;
+    
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+ul li{
+    font-size: 45px;
+}
+
+.homeBody{
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#homeTitulo{
+    background-color: rgba(255, 200, 0, 0.7);
+    color: rgb(64, 143, 217);
+    font-weight: bolder;
+    font-size: 65px;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.la{
+    color: white;
+}
+
+.logoSection{
+    padding: 0px 40px;
+}
+
+.logoSection img{
+    width: 200px;
+}
+
+/* jugadores cc */
+
+#jugadoresTitulo{
+    background-color: rgba(255, 200, 0, 0.7);
+    color:white;
+    font-weight: bolder;
+    font-size: 65px;
+    text-align: center;
+}
+
+.jugadoresBody{
+    background-color: gray;
+    padding: 0px 50px;
+}
+
+.jugadoresMain{
+    background-color: white;
+}
+
+.jugadoresPadre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    color: rgba(255, 0, 0, 0);
+}
+
+.jugadoresHijo{
+    border: 4px solid black;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 30px 0px;
+}
+
+.jugadoresHijo img{
+    width: 300px;
+}
+
+p{
+    font-size: 40px;
+}
+
+/* css para videos */
+
+.videosMain{
+    padding: 20px 50px;
+}
+
+.videosSection{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.videosArticulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 350px;
+   text-align: justify;
+}
+
+/* query apra tablets */
+
+@media (max-width: 680px) {
+    
+}
+
+@media (max-width: 420px) {
+    .jugadoresBody{
+        padding: 0px 0px;
+    }
+
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .jugadoresPadre{
+        flex-direction: column;
+        color: black;
+    }
+
+    .jugadoresHijo {
+        width: 100%;
+        padding: 20px;
+        background-image: url('../img/logo.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 250px;
+    }
+
+    .jugadoresHijo img {
+        width:100%;
+    }
+}

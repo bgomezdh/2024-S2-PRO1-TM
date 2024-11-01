@@ -1,0 +1,60 @@
+body{
+    background-color: white;
+    margin: 0px;
+}
+
+.cajaHija{
+    background-color: #ebe084;
+    background-repeat: no-repeat;
+    height: 165px;
+    width: 165px;
+    margin: 20px;
+   
+}
+
+.walter{
+    background-image: url('../img/walter.jpeg');
+    order: 3;
+    align-self: stretch;
+}
+
+.matraz{
+    background-image: url('../img/matraz.jpeg');
+    order: 2;
+}
+
+.mascara{
+    background-image: url('../img/mascara.jpeg');
+}
+
+.cajaPadre{
+    background-color: #173317;
+    min-height: 300px;
+    /* Flexbox */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* cabecera */
+header{
+    background-color: rgb(255, 238, 0);
+    height: 150px;
+    padding: 0px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}

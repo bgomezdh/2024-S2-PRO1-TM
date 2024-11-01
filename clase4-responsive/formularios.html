@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <!-- formulario -->
+
+    <main>
+        <form action="./index.html" method="get">
+            <!-- inputs -->
+            <div>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido">
+            </div>
+
+            <div>
+                <input type="email" name="email" id="email" placeholder="Escribe un Email">
+            </div>
+
+            <div>
+                <label for="contrasennia">Password</label>
+                <input type="password" name="contrasennia" id="contrasennia">
+            </div>
+
+            <div>
+                <label for="mayor">Mayor de edad?</label>
+                <input type="radio" name="mayor" id="mayorSi" value="SI">Si
+                <input type="radio" name="mayor" id="mayorNo" value="NO">No
+            </div>
+
+            <div>
+                <label for="equipos">Que equipos de gustan?</label>
+                <input type="checkbox" name="equipos" id="boca" value="Boquita" checked> Boca
+                <input type="checkbox" name="equipos" id="river" value="River"> River
+            </div>
+
+            <div>
+                <label for="">Expliqueme por que lo dejo su ex?</label>
+                <textarea name="" id="" cols="102" rows="10"></textarea>
+            </div>
+
+            <div>
+                <select name="pais" id="pais">
+                    <option value="">Seleccione Pais</option>
+                    <option value="br">Brasil</option>
+                    <option value="ar" selected>Argentina</option>
+                    <option value="ve">Venezuela</option>
+                </select>
+            </div>
+
+            <!-- btns -->
+             <button type="submit">Enviar</button>
+        </form>
+    </main>
+    
+</body>
+</html>

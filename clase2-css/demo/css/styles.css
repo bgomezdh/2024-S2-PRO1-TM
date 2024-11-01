@@ -1,0 +1,21 @@
+/* reglas css de tipo etiqueta */
+
+h1 {
+    color: red;
+}
+
+/* reglas css de tipo clase */
+.subtitulo {
+    color: green;
+}
+
+.fondo{
+    background-color: red;
+}
+
+/* reglas css de tipo ID */
+#parrafo {
+    color: chartreuse;
+}
+
+

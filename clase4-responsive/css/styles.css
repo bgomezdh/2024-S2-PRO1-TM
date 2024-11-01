@@ -1,0 +1,132 @@
+/* -------------------- Kitchening -------------------- */
+*{
+    box-sizing: border-box;
+}
+/* Resets */
+ul, ol{
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+
+h2{
+    margin: 2px 0px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+/* Generales */
+
+body{
+    background-image: url('../img/bg-body.png');
+    padding: 10px 200px;
+}
+
+/* Cabecera */
+.main-header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    border-radius: 90%;
+}
+.main-nav {
+    width: 100%;
+}
+.main-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-nav ul li {
+    background-color: rgb(58, 58, 58);
+    width: 150px;
+    padding: 15px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.main-nav ul li a{
+    color: white;
+}
+
+/* Banner */
+.banner img{
+    width: 1080px;
+}
+
+/* Prodcutos */
+.vip-products{
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.more{
+    background-color: #3d3d3d;
+    color: white;
+    padding: 15px 20px;
+   
+}
+
+/* Responsive TABLETS*/
+@media (max-width: 720px) {
+
+}
+
+/* Responsive MOBILE*/
+@media (max-width: 420px) {
+    body{
+        padding: 10px;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-nav ul li {
+        width: 100%;
+        margin: 5px 0px;
+    }
+
+    .banner{
+        margin: 20px 0px;
+    }
+
+    .product {
+        width: 100%;
+        align-items: center;
+    }
+
+    .photo-container{
+        width: 100%;
+    }
+
+    .photo{
+        width: 100%;
+    }
+}

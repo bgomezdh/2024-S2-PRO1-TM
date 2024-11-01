@@ -1,0 +1,153 @@
+/* reglas css de tipo etiqueta */
+
+body{
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+ol,ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.superior{
+    background-color: rgb(253 221 0);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.superior-izquierdo{
+    height: 80px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.superior-centro{
+    height: 80px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.superior-derecho{
+    height: 80px;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main{
+    background-image: url('../img/banner.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 0px 100px;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form input{
+    width: 90%;
+    height: 30px;
+    border: 1px solid transparent;
+   
+}
+
+.form button{
+    width: 10%;
+    height: 34px;
+    background-color: rgb(255 255 255);
+    border-left: 1px solid rgba(112, 112, 112, 0.962);
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+
+}
+
+.logo{
+    width: 200px;
+}
+
+.logo2{
+    width: 400px;
+}
+
+.lista{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* productos */
+
+.productos{
+    padding-top: 380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.producto{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 14%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.156);
+}
+
+.producto img{
+   width: 100%;
+}
+
+.producto h3{
+    color: rgb(93, 93, 93);
+ }
+
+.producto button{
+    background-color: #88b5f87e;
+    color: #3483fa;
+    border: none;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
