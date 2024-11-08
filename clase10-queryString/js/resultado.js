@@ -8,5 +8,10 @@ let nombre = document.querySelector(".nombre");
 let provincia = document.querySelector(".prov");
 
 nombre.innerText = usuario;
-provincia.innerText = prov;
 provincia.innerText = buscador;
+provincia.innerText = prov;
+
+
+if (prov == null) {
+    alert("No hay dato de la prov")
+}
